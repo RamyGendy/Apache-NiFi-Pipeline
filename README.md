@@ -53,7 +53,8 @@ Automated extraction till loading in Google Cloud Platform(GCP).
 ## Where to start
 
 * [Workflow Design](WorkflowDesign.md): Start directly with the project for a step by step design.
-* 
+* [Apache NiFi](https://www.tutorialspoint.com/apache_nifi/index.htm): Start a tutorial and set need and understanding of NiFi tools.
+* [EDA Shopping Dataset](EDA_shopping_dataset.ipynb): For a quick exploratory analysis of the dataset.
 
 ## Author
 
