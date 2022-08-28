@@ -1,0 +1,31 @@
+    [
+        {"name": "Customer_Name","type": "STRING","mode": "NULLABLE"},
+        {"name": "Province","type": "STRING","mode": "NULLABLE"},
+        {"name": "Region","type": "STRING","mode": "NULLABLE"},
+        {"name": "Customer_Segment","type": "STRING","mode": "NULLABLE"},
+        {"name": "Cust_id","type": "STRING","mode": "NULLABLE"},
+        {"name": "Phone_Number","type": "STRING","mode": "NULLABLE"},
+        {"name": "Email","type": "STRING","mode": "NULLABLE"},
+        {"name": "Ord_id","type": "STRING","mode": "NULLABLE"},
+        {"name": "Prod_id","type": "STRING","mode": "NULLABLE"},
+        {"name": "Ship_id","type": "STRING","mode": "NULLABLE"},
+        {"name": "Sales","type": "FLOAT","mode": "NULLABLE"},
+        {"name": "Discount","type": "FLOAT","mode": "NULLABLE"},
+        {"name": "Order_Quantity","type": "INTEGER","mode": "NULLABLE"},
+        {"name": "Profit","type": "FLOAT","mode": "NULLABLE"},
+        {"name": "Shipping_Cost","type": "FLOAT","mode": "NULLABLE"},
+        {"name": "Product_Base_Margin","type": "FLOAT","mode": "NULLABLE"},
+        {"name": "Order_ID","type": "INTEGER","mode": "NULLABLE"},
+        {"name": "Order_Date","type": "STRING","mode": "NULLABLE"},
+        {"name": "Order_Priority","type": "STRING","mode": "NULLABLE"},
+        {"name": "Product_Category","type": "STRING","mode": "NULLABLE"},
+        {"name": "Product_Sub_Category","type": "STRING","mode": "NULLABLE"},
+        {"name": "Ship_Mode","type": "STRING","mode": "NULLABLE"},
+        {"name": "Ship_Date","type": "STRING","mode": "NULLABLE"}
+    ]
+
+
+
+
+    
+    
