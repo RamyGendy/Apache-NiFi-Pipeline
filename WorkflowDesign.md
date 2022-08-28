@@ -8,4 +8,4 @@
     * 2 columns with integer64 values.
     * 16 columns with string values.
 
-    ![Screenshot](images/dataset_info.JPG)
+    ![Screenshot](Images/dataset_info.JPG)

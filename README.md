@@ -4,7 +4,7 @@
 
 Automated extraction till loading in Google Cloud Platform(GCP).
 
-![Screenshot](./images/nifi_ETL.JPG)
+![Screenshot](Images/nifi_ETL.JPG)
 
 ## Introduction
 
