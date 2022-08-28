@@ -4,7 +4,7 @@
 
 Automated extraction till loading in Google Cloud Platform(GCP).
 
-![Screenshot](nifi_ETL.JPG)
+![Screenshot](images/nifi_ETL.JPG)
 
 ## Introduction
 
@@ -48,18 +48,12 @@ Automated extraction till loading in Google Cloud Platform(GCP).
 
 ## Dataset
 
-* [shopping_dataset.csv](https://github.com/RamyGendy).
+* [shopping_dataset.csv](shopping_dataset.csv)
 
-## Getting Started
+## Where to start
 
-* Starting by understanding the dataset and the problem trying to solve with an EDA (Exploratory Data Analysis) made with python v3.8.8 on jupyter notebook to investigate the dataset and summaries the following:
-  * Dataset shape: 8399 rows and 23 columns.
-  * Datatypes:
-    * 5 columns with float64 values.
-    * 2 columns with integer64 values.
-    * 16 columns with string values.
-
-    ![Screenshot](dataset_info.JPG)
+* [Workflow Design](WorkflowDesign.md): Start directly with the project for a step by step design.
+* 
 
 ## Author
 
