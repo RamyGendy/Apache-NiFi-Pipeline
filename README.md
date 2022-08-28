@@ -41,9 +41,8 @@ Automated extraction till loading in Google Cloud Platform(GCP).
 
 ## Deliverables
 
-* A slide show to showcase your solution.
 * The XML file of the implemented NiFi pipeline (download as Template)
-* Screenshots of the created Schemas/tables on BigQuery/Database.
+
 * Screenshots of the implemented NiFi pipeline with all processors' configurations.
 
 ## Dataset

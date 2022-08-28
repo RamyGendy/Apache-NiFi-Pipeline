@@ -39,7 +39,7 @@
       SELECT Ord_id, Prod_id, Ship_id, Sales, Discount, Order_Quantity, Profit, Shipping_Cost, Product_Base_Margin, Order_ID, Order_Date, Order_Priority, Product_Sub_Category, Ship_Mode, Ship_Date FROM FLOWFILE WHERE Product_Category = 'TECHNOLOGY’
       ```
 
-* Before starting Loading phase, it is recommeded to study and understand the platform that will digest the data will be. By putting in consideration, digestion size, load/export schema, authentication
+* Before jumping to Loading phase, it is recommeded to study and understand the platform that will digest the data will be. By putting in consideration, digestion size, load/export schema, authentication
 * For this we will use **SplitRecord** Processor that will be added to each view to divide records into 100 records per split to be ingested into GCP big query by the same rate with controller service CSVReader and CSVRecordSetWriter. **Note** this method will not be efficient when dealing with very large data.
 * Finally, **Loading** stage of transformed data to **PutBigQueryBatch** for each _split/view_ is uploaded to the server and supported with table schema presented [_Customer Service View Schema_](CustomerServiceViewSchema.JSON) & [_Sales View Schema_](SalesViewSchema.JSON)
 * GCP is accessed via provided _private key_ on controller service **_GCPCredentialsControllerService_** in the _service account JSON property_.
